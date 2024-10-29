@@ -34,7 +34,7 @@ def sign_up(request):
 
 # def Home(request):
 #     return render(request,'index.html')
-
+#jdfajsdkfads
 class HomeView(View):
         def get(self,request):
             mobiles = Product.objects.filter(category = "M")
